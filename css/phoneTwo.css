@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+#secondline{
+	height: 37px;
+	background-color: black;
+	border-top:  1px solid rgb(76,76,76);
+}
+
+#secondline>div{
+	width: 1220px;
+	height: 37px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#secondline>div>nav{
+	display: flex;
+}
+#secondline>div>div{
+	display: flex;
+}
+#secondline>div>div>li>a{
+	margin: 10px;
+}
+#secondline a{
+	font-size: 12px;
+	color: rgb(76,76,76);
+}
+#secondline li{
+	height: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#secondline>div>nav>li>a{
+	margin: 15px;
+}
+#aRightBorder{
+	
+	text-align: center;
+	border-left: 1px solid rgb(76,76,76);
+	width: 120px;
+}
+#aButton{
+	margin: 0px;
+	display: flex;
+	width: 97px;
+	height: 26px;
+	align-items: center;
+	justify-content: center;
+	background-color: #19419b;
+	border-radius: 4px;
+}
+.firstBigImage{
+	background: url("../img/phoneTwo/1.jpg");
+	width: 1519px;
+	height: 1519px;
+	background-size:1519px 1519px;
+}
+
+.secondBigImage{
+	background: url("../img/phoneTwo/2-1.jpg");
+	width: 1519px;
+	height: 854px;
+	background-size:1519px 854px;
+}
+.thirdBigImage{
+	background: url("../img/phoneTwo/3.jpg");
+	width: 1519px;
+	height: 854px;
+	background-size:1519px 854px;
+}
+.fourthBigImage{
+	background: url("../img/phoneTwo/4.png");
+	width: 1519px;
+	height: 854px;
+	background-size:1519px 854px;
+}

@@ -1,0 +1,183 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../img/user/background.png");
+}
+li{
+	list-style-type: none;
+}
+input{
+	border: none;
+	outline: none;
+	font-size: 17px;
+}
+a{
+	text-decoration: none;
+}
+.register{
+	position: relative;
+	margin: 60px auto;
+	width: 450px;
+	height: 535px;
+	border-radius: 7px;
+	overflow: hidden;
+	box-shadow: 0px 9px 30px -6px rgba(0,0,0,.2);
+}
+.register>h4{
+	display: flex;
+	width: 450px;
+	height: 62px;
+	background-color: rgb(230,230,230);
+	font-size: 20px;
+	align-items: center;
+	justify-content: center;
+	color: rgb(102,102,102);
+}
+
+.formList{
+	width: 450px;
+	height: 471px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.formList>form{
+	width: 370px;
+	height: 417px;
+}
+.formList li{
+	display: flex;
+	border:  1px solid #ccc;
+	border-radius: 7px;
+	margin-bottom: 20px;
+}
+#FirstDiv{
+	width: 320px;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.formList li>div>p{
+	color: rgb(161,161,161);
+	font-size: 20px;
+}
+
+
+.iconImage{
+	width: 46px;
+	height: 46px;
+	border-right: 1px solid #ccc;
+	background-image: url("../img/user/icon.png");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#expecialLine{
+	width: 370px;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+}
+
+#expecialLine>div{
+	display: flex;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	align-items: center;
+	justify-content: center;
+}
+
+#expecialLine>a{
+	width: 100px;
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgb(200,200,200);
+	background-color: rgb(252,252,252);
+	border-radius: 7px;
+}
+.formListBottonA{
+	display: flex;
+}
+.formListBottonA>a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-image: url("../img/user/confirm.png");
+	background-repeat: no-repeat;
+	background-position: 0px -20px;
+}
+.formListBottonA>a:hover{
+	background-position: 0px 0px;
+}
+
+.formListBotton>a{
+	width: 368px;
+	height: 48px;
+	display: flex;
+	background-color: rgb(56,121,217);
+	font-size: 20px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+.formListBottonB{
+	width: 368px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	border-top: 1px solid rgb(200,200,200);
+}
+
+.formListBotton>div>p{
+	font-size: 12px;
+	color: #cacaca;
+}
+
+.formListBotton>div>p>a{
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #5079d9;
+}
+
+.SecondDiv{
+	display: flex;
+	align-items: center;
+}
+
+#thirdLine{
+	width: 640px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+#thirdLine>div{
+	width: 640px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#thirdLine>div>a{
+	font-size: 10px;
+}
+
+#thirdLine>div>p>span{
+	font-size: 12px;
+	color: rgb(177,177,177);
+}
+#thirdLine>p>span{
+	color: rgb(204,204,204);
+}
+

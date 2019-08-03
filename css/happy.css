@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../img/happy/1.jpg");
+
+}
+
+.firstline{
+	float: left;
+	position: relative;
+}
+
+#firstline{
+	height: 61px;
+	background-color: white;
+}
+
+
+#firstline>img{
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+
+#firstlineTwo{
+	margin-top: 15px;
+	margin-left: 20px;
+	color: rgb(138,138,138);
+
+}
+
+#secondLine{
+	width: 640px;
+	height: 700px;
+	margin: 0 auto;
+	border-bottom: 1px solid #d9d9d9;
+}
+#secondLine>div{
+	width: 640px;
+	height: 240px;
+}
+
+#secondLineOne{
+	background-image: url("../img/happy/3.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#secondLineTwo{
+	text-align: center;
+}
+#secondLineTwo>h1{
+	color: rgb(102,102,102);
+}
+#secondLineTwoSecond{
+	width: 630px;
+	height: 56px;
+	margin-top: 20px;
+}
+#secondLineTwoSecond>p{
+	margin-top: 20px;
+}
+#secondLineTwoSecond>p>span{
+	color: rgb(177,177,177);
+}
+#secondLineTwoThird{
+	width: 200px;
+	height: 50px;
+	background-color: #6191f2;
+	margin-left: 220px;
+	margin-top: 100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#secondLineTwoThird>a{
+	color: white;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.15);
+	text-decoration: none;
+}
+#secondLineTwoFourth{
+	height: 24px;
+	display: flex;
+	justify-content: center;
+}
+#secondLineTwoFourth>div{
+	width: 260px;
+	height: 24px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+#secondLineTwoFourth>div>a{
+	text-decoration: none;
+	color: rgb(177,177,177);
+}
+#thirdLine{
+	width: 640px;
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+#thirdLine>div{
+	width: 640px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#thirdLine>div>a{
+	font-size: 10px;
+}
+
+#thirdLine>div>p>span{
+	font-size: 12px;
+	color: rgb(177,177,177);
+}
+#thirdLine>p>span{
+	color: rgb(204,204,204);
+}
+
+
